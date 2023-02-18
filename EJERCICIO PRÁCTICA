@@ -1,0 +1,15 @@
+import random
+numero=random.randint(1,2)
+if numero==1:
+    lado='cara'
+if numero==2:
+    lado='sello'
+print("Que escoges, cara o sello \n") 
+resultado=input()
+
+if resultado==lado:
+    print("Muy bien, ha salido")
+
+if resultado==lado:
+    print("Mala suerte, ha salido")
+
